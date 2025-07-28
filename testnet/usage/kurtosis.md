@@ -1181,6 +1181,17 @@ port_publisher:
 
 :::
 
+### Enable `clef` Remote Signer
+
+To get started with the `clef` system, head over to the [clef usage](/testnet/usage/clef#gzond-integration) documentation.
+
+Once you have a keystore setup and running, enable the remote signer fields in the network params file `network_params.yaml`:
+
+```
+use_remote_signer: true
+remote_signer_type: clef
+```
+
 ### CLI options
 
 The `start_local_testnet.sh` script comes with some CLI options, which can be viewed with `./start_local_testnet.sh -h`. 
